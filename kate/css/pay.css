@@ -1,0 +1,352 @@
+#box{
+    width: 100%;
+    height: 1100px;
+    /* background: red; */
+    margin-top: 45px;
+}
+.boxcon{
+    width: 92%;
+    height: 1100px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+}
+.boxcon .Lbox{
+    width: 645px;
+    height: 1006px;
+    /* background: gray; */
+    float: left;
+}
+.boxcon .Rbox{
+    width: 470px;
+    height: 1500px;
+    /* background: green; */
+    float: right;
+}
+.Lbox h6{
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 38px;
+    
+}
+.Lbox .select{
+    position: relative;
+    padding-left: 38px;
+    padding-top: 20px
+}
+.Lbox .select .denglu {
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+.Lbox .select .zhuce{
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+/* 左边的验证码登录 */
+.leftbox{
+    width: 633px;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 9px;
+}   
+
+.leftbox .leftbox1{
+    width: 460px;
+    height: 20px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-around
+}
+.leftbox .leftbox1-1{
+    float: left;
+    font-size: 14px;
+    color: #bababa;
+    cursor: pointer;
+}
+.leftbox .leftbox1-1 a{
+    font-size: 14px;
+    color: #000;
+}
+.leftbox .leftbox1-2{
+    float: left;
+    font-size: 14px;
+    color: #bababa;
+    cursor: pointer;
+}
+.leftbox .leftbox1-2 a{
+    font-size: 14px;
+    color: #000;
+}
+.leftbox .ipt1{
+    width: 590px;
+    height: 35px;
+    outline: none;
+    margin-left: 30px;
+}
+.leftbox .leftbox2{
+    width: 460px;
+    height: 35px;
+    margin: 20px 30px;
+}
+.leftbox .ipt2{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    float: left;
+}
+.leftbox .yanzheng{
+    width: 150px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+.leftbox .leftbox3{
+    width: 460px;
+    height: 35px;
+    margin: 20px 30px;
+}
+.leftbox .ipt3{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    float: left;
+}
+.leftbox .shouji{
+    font-size: 14px;
+    color: #bababa;
+}
+.leftbox .btn{
+    width: 460px;
+    outline:none;
+    height: 43px;
+    background-color: #22362a;
+    color: #ffffff;
+    margin:30px;
+    margin-left: 70px
+}
+
+/* 左边的密码登录 */
+#leftbox{
+    width: 633px;
+    height: 294px;
+    background-color: #ffffff;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 9px;
+    display: none;
+}   
+
+.leftbox1{
+    width: 460px;
+    height: 20px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-around
+}
+.leftbox1-1{
+    float: left;
+    font-size: 14px;
+    color: #bababa;
+    cursor: pointer;
+}
+.leftbox1-1 a{
+    font-size: 14px;
+    color: #000;
+}
+.leftbox1-2{
+    float: left;
+    font-size: 14px;
+    color: #bababa;
+    cursor: pointer;
+}
+.leftbox1-2 a{
+    font-size: 14px;
+    color: #000;
+}
+#leftbox .ipt1{
+    width: 597px;
+    height: 35px;
+    outline: none;
+    margin-left: 30px;
+}
+#leftbox .ipt2{
+    width: 597px;
+    height: 35px;
+    outline: none;
+    margin: 15px 30px;
+}
+#leftbox h3{
+    width: 460px;
+    height: 20px;
+    margin-left: 146px;
+}
+#leftbox h3 a{
+    font-size: 14px;
+    float: right;
+    color: #000;
+    font-weight: 100;
+}
+#leftbox .btn{
+    width: 460px;
+    outline:none;
+    height: 43px;
+    background-color: #22362a;
+    color: #ffffff;
+    margin:15px 30px;
+    margin-left: 70px;
+}
+#leftbox fieldset{
+    width: 460px;
+    margin-left: 30px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+#leftbox legend{
+    text-align: center;
+    font-size: 12px;
+}
+#leftbox .img{
+    width: 29px;
+    height: 22px;
+    margin: 10px 0 0 255px;
+}
+
+.rightbox{
+    width: 633px;
+    height: 335px;
+    background-color: #ffffff;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 9px;
+    display: none
+} 
+.rightbox h2{
+    width: 540px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.rightbox .ipt1{
+    width: 560px;
+    height: 35px;
+    outline: none;
+    margin-left: 30px;
+}
+.rightbox .rightbox2{
+    width: 460px;
+    height: 35px;
+    margin: 20px 30px;
+}
+.rightbox .ipt2{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    float: left;
+}
+.rightbox .yanzheng{
+    width: 150px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+.rightbox .rightbox3{
+    width: 460px;
+    height: 35px;
+    margin: 20px 30px;
+}
+.rightbox .ipt3{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    float: left;
+}
+.rightbox .shouji{
+    font-size: 14px;
+    color: #bababa;
+}
+.rightbox .btn{
+    width: 460px;
+    outline:none;
+    height: 43px;
+    background-color: #22362a;
+    color: #ffffff;
+    margin:30px;
+    margin-left: 90px
+}
+.lif{
+    position: absolute;
+    top: 470px;
+    /* background: orangered; */
+    width: 645px;
+}
+.lif h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #223628;
+}
+.lif .che{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #223628;
+    font-size: 16px;
+    margin-left: 38px;
+}
+.lif .in{
+    /* margin-bottom: 15px; */
+    margin-top: 15px;
+    font-size: 14px;
+    color: #223628;
+    cursor: pointer;
+    outline: none;
+    width: 550px;
+    height: 36px;
+}
+.lif select{
+    margin-top: 15px
+}
+.Rbox h6{
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #223628;
+}
+.Rbox .mon{
+    padding-top: 15px;
+    color: #223628;
+    font-size: 14px;
+}
+.Rbox .mon1{
+    padding-top: 30px;
+    color: #223628;
+    font-size: 14px;
+}
+.Rbox .mon2{
+    padding-top: 30px;
+    color: #223628;
+    font-size: 14px;
+}
+.Rbox .add{
+    margin-top: 40px;
+    border-top: 1px solid #e0e9e7;
+    color: #223628;
+    font-size: 14px;
+}

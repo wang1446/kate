@@ -1,0 +1,304 @@
+#ex{
+    width: 100%;
+    height: 1288px;
+    /* background: red; */
+    margin-top: 30px;
+}
+.excon{
+    width: 92%;
+    height: 1288px;
+    margin: 0 auto;
+    /* background: yellow; */
+    position: relative;
+}
+.excon .leftbox{
+    width: 57px;
+    height: 600px;
+    float: left;
+    position: absolute;
+    left: 90px;
+}
+.excon .leftbox li{
+    margin-bottom: 10px;
+    width: 57px;
+    height: 75px;
+    cursor: pointer;
+}
+.excon .cenbox{
+    width: 490px;
+    height: 650px;
+    float: left;
+    position: absolute;
+    left: 177px;
+}
+.excon .rightbox{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    right: 5px;
+    /* background: gray */
+}
+.excon .rightbox h6{
+    font-size: 24px;
+    font-weight: 100;
+    color: #223628
+}
+.excon .rightbox span{
+    display: block;
+    font-size: 16px;
+    color: #223628;
+    padding-top: 12px;
+}
+.excon .rightbox li{
+    font-size: 12px;
+    color: #48756a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.excon .rightbox p{
+    font-size: 14px;
+    color: #223628;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.excon .rightbox .buy{
+    width: 370px;
+    height: 44px;
+    color: #fff;
+    background-color: #223628;
+    border: 1px solid #223628;
+    outline: none;
+}
+.excon .rightbox .add{
+    width: 370px;
+    height: 44px;
+    color: #223628;
+    background-color: #fff;
+    border: 1px solid #223628;
+    margin-top: 10px;
+    outline: none;
+}
+.excon .rightbox .fen{
+    padding-top: 28px;
+    font-size: 14px;
+    color: #223628;
+}
+.excon .footbox{
+    width: 778px;
+    height: 530px;
+    /* background: orange; */
+    position: absolute;
+    top: 730px;
+    left: 90px;
+}
+.excon .footbox .bix2,.bix3,.bix4,.bix5{
+    padding-top: 40px 
+}
+.excon .footbox .bix1 .tit{
+    font-size: 16px;
+    color: #223628;
+    position: relative;
+    /* height: 20px; */
+}
+.excon .footbox .bix1 .tit span{
+    position: absolute;
+    right: 30px;
+    font-size: 23px;
+    width: 30px;
+    top:-7px;
+    cursor: pointer;
+}
+.excon .footbox .bix1 .wor{
+    padding-top: 20px;
+    font-size: 14px;
+    color: #223628;
+    /* display: none; */
+}
+.excon .footbox .bix2 .tit{
+    font-size: 16px;
+    color: #223628;
+    position: relative;
+}
+.excon .footbox .bix2 .tit span{
+    position: absolute;
+    right: 30px;
+    font-size: 23px;
+    width: 30px;
+    top:-7px;
+    cursor: pointer;
+}
+.excon .footbox .bix2 .wor{
+    padding-top: 20px;
+    font-size: 14px;
+    color: #223628;
+    display: none;
+}
+.show{
+    display: block;
+}
+.excon .footbox .bix3 .tit{
+    font-size: 16px;
+    color: #223628;
+    position: relative;
+}
+.excon .footbox .bix3 .tit span{
+    position: absolute;
+    right: 30px;
+    font-size: 23px;
+    width: 30px;
+    top:-7px;
+    cursor: pointer;
+}
+.excon .footbox .bix3 p{
+    color: #223628;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.excon .footbox .bix3 .wor{
+    display: none;
+}
+.excon .footbox .bix4 .tit{
+    font-size: 16px;
+    color: #223628;
+    position: relative;
+}
+.excon .footbox .bix4 .wor{
+    display: none;
+}
+.excon .footbox .bix4 .tit span{
+    position: absolute;
+    right: 30px;
+    font-size: 23px;
+    width: 30px;
+    top:-7px;
+    cursor: pointer;
+}
+.excon .footbox .bix4 p{
+    color: #223628;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.excon .footbox .bix5 .wor{
+    display: none;
+}
+.excon .footbox .bix5 .tit{
+    font-size: 16px;
+    color: #223628;
+    position: relative;
+}
+.excon .footbox .bix5 .tit span{
+    position: absolute;
+    right: 30px;
+    font-size: 23px;
+    width: 30px;
+    top:-7px;
+    cursor: pointer;
+}
+.excon .footbox .bix5 p{
+    color: #223628;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+#nod{
+    width: 100%;
+    height: 264px;
+}
+.nidcon{
+    width: 92%;
+    margin: 0 auto;
+    position: relative;
+    height: 264px;
+}
+.nidcon img{
+    width: 1030px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+#shop{
+    width: 100%;
+    height: 500px;
+    /* background: red; */
+    margin-top: 90px;
+}
+.shopcon{
+    width: 92%;
+    height: 500px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+}
+.shopcon .word{
+    font-size: 20px;
+    text-align: center;
+    color: #223628;
+    padding-bottom: 50px;
+}
+.shopcon .box1{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.shopcon .box1 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+.shopcon .box1 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+

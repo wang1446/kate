@@ -1,0 +1,644 @@
+#navlist{
+    width: 100%;
+    height: 80px;
+    /* background: red; */
+}
+.navlistcon{
+    width: 92%;
+    height: 80px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+}
+.navlistcon .box{
+    font-size: 11px;
+    color: #223628;
+    position: absolute;
+    bottom: 10px;
+    left: 95px;
+    cursor: pointer;
+}
+.navlistcon .box2{
+    font-size: 11px;
+    color: #223628;
+    position: absolute;
+    bottom: 10px;
+    right: 140px;
+    cursor: pointer;
+}
+.navlistcon .box3{
+    font-size: 11px;
+    color: #223628;
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    cursor: pointer;
+}
+.navlistcon img{
+    padding-left: 2px;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+#shop{
+    width: 100%;
+    height: 4274px;
+    /* background: red; */
+    margin-top: 10px;
+}
+.shopcon{
+    width: 92%;
+    height: 4274px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+}
+.bigbox{
+    /* display: none; */
+}
+.shopcon .box1{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.shopcon .box1 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box1 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box1 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box1 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box2 */
+.shopcon .box2{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 460px;
+}
+.shopcon .box2 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box2 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box2 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box2 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box2 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box2 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box2 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box2 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box2 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box3 */
+.shopcon .box3{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 920px;
+}
+.shopcon .box3 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box3 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box3 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box3 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box3 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box3 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box3 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box3 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box3 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box4 */
+.shopcon .box4{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1380px;
+}
+.shopcon .box4 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box4 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box4 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box4 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box4 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box4 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box4 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box4 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box4 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box5 */
+.shopcon .box5{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1840px;
+}
+.shopcon .box5 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box5 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box5 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box5 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box5 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box5 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box5 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box5 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box5 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box6 */
+.shopcon .box6{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2300px;
+}
+.shopcon .box6 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box6 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box6 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box6 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box6 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box6 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box6 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box6 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box6 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box7 */
+.shopcon .box7{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2760px;
+}
+.shopcon .box7 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box7 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box7 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box7 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box7 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box7 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box7 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box7 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box7 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box8 */
+.shopcon .box8{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3220px;
+}
+.shopcon .box8 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box8 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box8 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box8 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box8 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box8 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box8 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box8 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box8 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* box9 */
+.shopcon .box9{
+    width: 1010px;
+    height: 460px;
+    /* background: green; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3680px;
+}
+.shopcon .box9 span{
+    display: block;
+    width: 230px;
+    height: 400px;
+    /* background: olive; */
+    margin-right: 7px;
+    margin-left: 15px;
+    float: left;
+}
+.shopcon .box9 .pic1 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box9 .pic1 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box9 .pic2 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box9 .pic2 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box9 .pic3 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box9 .pic3 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .box9 .pic4 li{
+    font-size: 14px;
+    color: #223628;
+    text-align: center;
+    margin-top: 10px;
+}
+.shopcon .box9 .pic4 p{
+    font-size: 11px;
+    margin-top:30px;
+    text-align: center;
+}
+.shopcon .mor{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #223628;
+    border: 0 solid #223628;
+    color: #fff;
+    width: 203px;
+    height: 44px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+}

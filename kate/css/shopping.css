@@ -1,0 +1,143 @@
+*{
+    margin: 0;padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* 中间购物车信息部分 */
+
+.shop{
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+}
+.shop-con{
+    width: 1235px;
+    min-height: 350px;
+    margin: 0 auto;
+}
+.shop-con .top{
+    width: 1235px;
+    border:1px solid #bcbcbc;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+.shop-con .top h2{
+    color: red;
+    font-size: 16px;
+    padding-top: 16px;
+    text-indent: 16px;
+    font-weight: 100;
+}
+.shop-con .top h3{
+    color: #bcbcbc;
+    font-size: 14px;
+    margin-top: 16px;
+    text-indent: 16px;
+    font-weight: 100;
+}
+.shop-con .top h3 a{
+    color: #bcbcbc;
+}
+.shop-con .center{
+    width: 60px;
+    height: 5px;
+    background-color: #000000;
+    position: absolute;
+    top: 150px;
+}
+.shop-con .me{
+    position: absolute;
+    top: 155px;
+}
+.shop-con .span1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #000
+}
+.shop-con span{
+    font-size: 12px;
+    color: #bababa;
+    margin-left: 5px;
+}
+.shop-con .gouwu{
+    width: 1235px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+}
+.gouwu h2{
+    font-size: 15px;
+    font-weight: 100;
+    color: #bababa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.gouwu h2 a{
+    color: #bababa;
+}
+
+
+ /* 最底部结算部分 */
+.jiesuan{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+    border:1px solid #eee;
+    position: fixed;
+    bottom: 0;
+ }
+.jiesuan .span1{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 14px;
+    color: #fff;
+ }
+.jiesuan .span2{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 14px;
+}
+.jiesuan .div{
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 1005px;
+    border-right: 1px solid #bababa;
+}
+.jiesuan .div h2{
+    width: 120px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    padding-top: 3px;
+}
+.jiesuan .div span{
+    font-size: 20px;
+    color: #fff;
+}
+.jiesuan .button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #ff9999;
+    outline: none;
+    position: absolute;
+    top: 20px;
+    left: 1125px;
+    border: none;
+    cursor: pointer;
+}
