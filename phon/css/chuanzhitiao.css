@@ -1,0 +1,198 @@
+*{
+    margin: 0;padding: 0
+}
+b,strong{
+    font-weight: normal
+}
+/* 清除i、em标签的默认样式 */
+i,em{
+    font-style: normal
+}
+/* 清除a、u标签的默认下划线 */
+a,u{
+    text-decoration: none
+}
+/* 清除列表默认样式符号 */
+ul,li{
+    list-style: none
+}
+/* 解决行内块元素基线对齐的问题 */
+img,input{
+    vertical-align: middle
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    /* background: orangered !important; */
+}
+html{
+    font-size: 31.25vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 0.3rem;
+    background: #ffffff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+header li{
+    font-size: 0.145rem;
+    padding-left: 0.13rem;
+    color: #4f4f4f;
+}
+main{
+    width: 94.5%;
+    height: 100%;
+    background: #f5f5f5;
+    margin: 0.01rem auto;
+    border-radius: 0.07rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: scroll;
+    margin-top: 0.1rem
+}
+main img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+main li{
+    font-size: 0.12rem;
+    color: #000000;
+    font-weight: 600
+}
+main p{
+    font-size: 0.09rem;
+    color: #8f8f8f;
+}
+main .box1{
+    height: 1.05rem;
+    background: #ffffff;
+    border-radius: 0.07rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .box1 .to{
+    margin-left: 0.12rem;
+    height: 0.29rem;
+    display: flex;
+}
+main .box1 .to .to1{
+    margin-left: 0.05rem
+}
+main .box1 .bo{
+    font-size: 0.13rem;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 0.12rem
+}
+main .box2{
+    height: 1.05rem;
+    background: #ffffff;
+    border-radius: 0.07rem;
+    margin-top: 0.075rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .box2 .to{
+    margin-left: 0.12rem;
+    height: 0.29rem;
+    display: flex;
+}
+main .box2 .to .to1{
+    margin-left: 0.05rem
+}
+main .box2 .bo{
+    font-size: 0.13rem;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 0.12rem
+}
+main .box3{
+    height: 1.05rem;
+    background: #ffffff;
+    border-radius: 0.07rem;
+    margin-top: 0.075rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .box3 .to{
+    margin-left: 0.12rem;
+    height: 0.29rem;
+    display: flex;
+}
+main .box3 .to .to1{
+    margin-left: 0.05rem
+}
+main .box3 .bo{
+    font-size: 0.13rem;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 0.12rem
+}
+main .box4{
+    height: 1.05rem;
+    background: #ffffff;
+    border-radius: 0.07rem;
+    margin-top: 0.075rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .box4 .to{
+    margin-left: 0.12rem;
+    height: 0.29rem;
+    display: flex;
+}
+main .box4 .to .to1{
+    margin-left: 0.05rem
+}
+main .box4 .bo{
+    font-size: 0.13rem;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 0.12rem
+}
+.an{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 0.2rem;
+    width: 0.37rem;
+    height: 0.37rem;
+}
+.an img{
+    width: 0.37rem;
+    height: 0.37rem;
+}
+footer{
+    width: 100%;
+    height: 0.42rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+footer .box1,footer .box2,footer .box3,footer .box4{
+    display: flex;
+    font-size: 0.075rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    display: block;
+    width: 0.205rem;
+    height: 0.165rem;
+}
+footer img{
+    width: 0.205rem;
+    height: 0.165rem;
+}

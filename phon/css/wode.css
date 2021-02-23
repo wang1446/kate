@@ -1,0 +1,300 @@
+*{
+    margin: 0;padding: 0
+}
+b,strong{
+    font-weight: normal
+}
+/* 清除i、em标签的默认样式 */
+i,em{
+    font-style: normal
+}
+/* 清除a、u标签的默认下划线 */
+a,u{
+    text-decoration: none
+}
+/* 清除列表默认样式符号 */
+ul,li{
+    list-style: none
+}
+/* 解决行内块元素基线对齐的问题 */
+img,input{
+    vertical-align: middle
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    /* background: orangered !important; */
+}
+html{
+    font-size: 31.25vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 1.15rem;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+header .to{
+    height: 0.33rem;
+    width: 94.5%;
+    /* background: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .to .p1{
+    width: 0.18rem;
+    height: 0.17rem;
+    margin-right: 0.17rem;
+}
+header .to .p2{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+header .p3{
+    width: 0.63rem;
+    height: 0.63rem;
+}
+header .bo{
+    width: 94.5%;
+    height: 0.82rem;
+    display: flex;
+    align-items: center
+}
+header .bo .ri{
+    display: flex;
+}
+header .bo .le{
+    display: flex;
+    flex-direction: column
+}
+header .bo .le p{
+    font-size: 0.18rem;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 0.07rem;
+    margin-bottom: 0.05rem
+}
+header .le1 {
+    display: flex;
+    font-size: 0.1rem !important;
+    justify-content: center;
+    align-items: center;
+}
+header .le1 .box1{
+    display: flex;
+    width: 0.35rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.29rem;
+}
+header .le1 .box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 0.59rem;
+    height: 0.29rem;
+}
+header .le1 .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 0.59rem;
+    height: 0.29rem;
+}
+header .le1 img{
+    height: 0.19rem;
+}
+header .le1 em{
+    color: #989898
+}
+header .le1 li{
+    font-weight: 600
+}
+nav{
+    display: flex;
+    height: 0.73rem;
+    width: 94.5%;
+    border-radius: 0.07rem;
+    background: #ffffff;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+nav p{
+    font-size: 0.11rem;
+    color: #4b4b4b;
+    font-weight: 600;
+}
+nav .box1,nav .box2,nav .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.6rem;
+}
+nav img{
+    width: 0.29rem;
+    height: 0.26rem;
+}
+#banner{
+    width: 100%;
+    height: 1.6rem;
+    background: #ffffff;
+    display: flex;
+    margin-top: 0.05rem;
+}
+.bannercon{
+    height: 1.23rem;
+    width: 94.5%;
+    /* background: yellow; */
+    margin: 0 auto;
+    margin-top: 0.12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bannercon .to{
+    display: flex;
+    height: 0.53rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannercon .to .box1{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .to .box2{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .to .box3{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .to .box4{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .bo{
+    display: flex;
+    width: 1.22rem;
+    height: 0.53rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.17rem
+}
+.bannercon .bo .box1{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .bo .box2{
+    display: flex;
+    height: 0.53rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercon .img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.bannercon li{
+    font-size: 0.1rem;
+    color: #171717;
+}
+main{
+    width: 100%;
+    height: 1.53rem;
+    background: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0.05rem;
+}
+main .box1{
+    display: flex;
+    width: 94.5%;
+    height: 0.3rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+main .box2{
+    display: flex;
+    width: 94.5%;
+    height: 0.3rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+main .box3{
+    display: flex;
+    width: 94.5%;
+    height: 0.3rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+main p{
+    font-size: 0.11rem;
+    color: #111111;
+}
+main img{
+    width: 0.055rem;
+    height: 0.1rem;
+}
+.k{
+    height: 0.54rem;
+    background: #f8f8f8
+}
+footer{
+    width: 100%;
+    height: 0.42rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+footer .box1,footer .box2,footer .box3,footer .box4{
+    display: flex;
+    font-size: 0.075rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    display: block;
+    width: 0.205rem;
+    height: 0.165rem;
+}
+footer img{
+    width: 0.205rem;
+    height: 0.165rem;
+}

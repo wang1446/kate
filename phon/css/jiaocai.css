@@ -1,0 +1,246 @@
+*{
+    margin: 0;padding: 0
+}
+b,strong{
+    font-weight: normal
+}
+/* 清除i、em标签的默认样式 */
+i,em{
+    font-style: normal
+}
+/* 清除a、u标签的默认下划线 */
+a,u{
+    text-decoration: none
+}
+/* 清除列表默认样式符号 */
+ul,li{
+    list-style: none
+}
+/* 解决行内块元素基线对齐的问题 */
+img,input{
+    vertical-align: middle
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    /* background: orangered !important; */
+}
+html{
+    font-size: 31.25vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 0.3rem;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 3.03rem;
+    height: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 1.04rem;
+    text-indent: 0.34rem;
+    font-size: 0.12rem;
+    background: url(../images/ser_03.jpg) no-repeat 0.15rem center;
+    background-color: #ffffff;
+}
+nav{
+    width: 100%;
+    height: 1.1rem;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 0.915rem;
+    display: block
+}
+nav li{
+    margin: 0 0.03rem;
+    height: 0.95rem;
+}
+#word{
+    width: 94.5%;
+    height: 0.77rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.1rem;
+    margin: 0 auto
+}
+#word img{
+    display: block;
+    height: 0.23rem;
+}
+#word span{
+    display: block;
+    padding-top: 0.1rem;
+}
+#word li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.09rem;
+    color: #040404;
+}
+#banner{
+    width: 94.5%;
+    height: 0.19rem;
+    background: #ffffff;
+    margin: 0.1rem auto;
+    border-radius: 0.07rem;
+    background-image: url(../images/banner_03.jpg),url(../images/banner2_03.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 0.19rem center,2.85rem center;
+}
+#banner li{
+    font-size: 0.09rem;
+    color: #9f9f9f;
+    text-indent: 0.32rem;
+    line-height: 0.19rem;
+}
+#banner span{
+    font-size: 0.11rem;
+    color: #000000;
+    line-height: 0.19rem;
+}
+main{
+    width: 94.5%;
+    height: 100%;
+    background: #ffffff;
+    margin: 0.01rem auto;
+    border-radius: 0.07rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: scroll;
+}
+main img{
+    width: 0.64rem;
+    height: 0.875rem;
+}
+main h6{
+    font-size: 0.14rem;
+    padding-top: 0.185rem;
+    padding-left: 0.13rem;
+    /* background: red; */
+}
+main .box1{
+    height: 0.37rem;
+    /* background-color: salmon; */
+}
+main .box1 .le{
+    font-size: 0.11rem;
+    float: left;
+    width: 0.35rem;
+    height: 0.11rem;
+    margin-top: 0.13rem;
+    margin-left: 0.58rem;
+    background: url(../images/xiasanjiao_03.jpg) no-repeat 0.24rem 0.04rem;
+}
+main .box1 .re{
+    font-size: 0.11rem;
+    float: left;
+    width: 0.35rem;
+    height: 0.11rem;
+    margin-top: 0.13rem;
+    margin-left: 1.16rem;
+    background: url(../images/xiasanjiao_03.jpg) no-repeat 0.24rem 0.04rem;
+}
+main .box2{
+    display: flex;
+    width: 100%;
+    height: 1.12rem;
+    /* background: blue; */
+    align-items: center;
+    border-bottom: 0.01rem solid #f8f8f8;
+}
+main .box2 .le{
+    display: flex;
+    width: 0.64rem;
+    height: 0.875rem;
+    margin-left: 0.135rem;
+}
+main .box2 .re{
+    display: flex;
+    height: 0.495rem;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 0.065rem;
+    margin-top: -0.35rem
+}
+main .box2 .re p{
+    font-size: 0.12rem;
+    color: #050505;
+    font-weight: 200;
+    margin-bottom: 0.1rem
+}
+main .box2 .re li{
+    font-size: 0.1rem;
+    color: #5a5a5a;
+}
+main .box3{
+    display: flex;
+    width: 100%;
+    height: 1.12rem;
+    /* background: blue; */
+    align-items: center;
+    border-bottom: 0.01rem solid #f8f8f8;
+}
+main .box3 .le{
+    display: flex;
+    width: 0.64rem;
+    height: 0.875rem;
+    margin-left: 0.135rem;
+}
+main .box3 .re{
+    display: flex;
+    height: 0.495rem;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 0.065rem;
+    margin-top: -0.35rem
+}
+main .box3 .re p{
+    font-size: 0.12rem;
+    color: #050505;
+    font-weight: 200;
+    margin-bottom: 0.1rem
+}
+main .box3 .re li{
+    font-size: 0.1rem;
+    color: #5a5a5a;
+}
+footer{
+    width: 100%;
+    height: 0.42rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+footer .box1,footer .box2,footer .box3,footer .box4{
+    display: flex;
+    font-size: 0.075rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    display: block;
+    width: 0.205rem;
+    height: 0.165rem;
+}
+footer img{
+    width: 0.205rem;
+    height: 0.165rem;
+}

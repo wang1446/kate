@@ -1,0 +1,220 @@
+*{
+    margin: 0;padding: 0
+}
+b,strong{
+    font-weight: normal
+}
+/* 清除i、em标签的默认样式 */
+i,em{
+    font-style: normal
+}
+/* 清除a、u标签的默认下划线 */
+a,u{
+    text-decoration: none
+}
+/* 清除列表默认样式符号 */
+ul,li{
+    list-style: none
+}
+/* 解决行内块元素基线对齐的问题 */
+img,input{
+    vertical-align: middle
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    overflow: hidden;
+    /* background: orangered !important; */
+}
+html{
+    font-size: 31.25vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 0.38rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.01rem solid #ebebeb;
+    justify-content: space-around;
+}
+header .box{
+    width: 2.96rem;
+    height: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .p1{
+    width: 0.08rem;
+    height: 0.15rem;
+}
+header .p2{
+    width: 0.15rem;
+    height: 0.15rem;
+}
+header p{
+    font-size: 0.12rem;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    margin: 0.01rem auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: scroll;
+}
+main img{
+    width: 0.35rem;
+    height: 0.42rem;
+}
+main .boxtop{
+    width: 100%;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #020202;
+    font-size: 0.12rem;
+    font-weight: 600;
+}
+main .box1{
+    height: 0.725rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+    display: flex;
+    margin-left: 0.12rem;
+}
+main .box1 .le{
+    display: flex;
+    align-items: center
+}
+main .box1 .ri{
+    display: flex;
+    flex-direction: column;
+}
+main .box1 .ri p{
+    font-size: 0.14rem;
+    color: #000000;
+    margin-top: 0.19rem;
+    margin-left: 0.12rem
+}
+main .box1 .ri li{
+    font-size: 0.09rem;
+    color: #b4b4b4;
+    margin-top: 0.05rem;
+    margin-left: 0.12rem
+}
+main .box2{
+    height: 0.725rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+    display: flex;
+    margin-left: 0.12rem;
+}
+main .box2 .le{
+    display: flex;
+    align-items: center
+}
+main .box2 .ri{
+    display: flex;
+    flex-direction: column;
+}
+main .box2 .ri p{
+    font-size: 0.14rem;
+    color: #000000;
+    margin-top: 0.19rem;
+    margin-left: 0.12rem
+}
+main .box2 .ri li{
+    font-size: 0.09rem;
+    color: #b4b4b4;
+    margin-top: 0.05rem;
+    margin-left: 0.12rem
+}
+main .box3{
+    height: 0.725rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+    display: flex;
+    margin-left: 0.12rem;
+}
+main .box3 .le{
+    display: flex;
+    align-items: center
+}
+main .box3 .ri{
+    display: flex;
+    flex-direction: column;
+}
+main .box3 .ri p{
+    font-size: 0.14rem;
+    color: #000000;
+    margin-top: 0.19rem;
+    margin-left: 0.12rem
+}
+main .box3 .ri li{
+    font-size: 0.09rem;
+    color: #b4b4b4;
+    margin-top: 0.05rem;
+    margin-left: 0.12rem
+}
+main .box4{
+    height: 0.725rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+    display: flex;
+    margin-left: 0.12rem;
+}
+main .box4 .le{
+    display: flex;
+    align-items: center
+}
+main .box4 .ri{
+    display: flex;
+    flex-direction: column;
+}
+main .box4 .ri p{
+    font-size: 0.14rem;
+    color: #000000;
+    margin-top: 0.19rem;
+    margin-left: 0.12rem
+}
+main .box4 .ri li{
+    font-size: 0.09rem;
+    color: #b4b4b4;
+    margin-top: 0.05rem;
+    margin-left: 0.12rem
+}
+main .box5{
+    height: 0.725rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+    display: flex;
+    margin-left: 0.12rem;
+}
+main .box5 .le{
+    display: flex;
+    align-items: center
+}
+main .box5 .ri{
+    display: flex;
+    flex-direction: column;
+}
+main .box5 .ri p{
+    font-size: 0.14rem;
+    color: #000000;
+    margin-top: 0.19rem;
+    margin-left: 0.12rem
+}
+main .box5 .ri li{
+    font-size: 0.09rem;
+    color: #b4b4b4;
+    margin-top: 0.05rem;
+    margin-left: 0.12rem
+}
